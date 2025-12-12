@@ -1,4 +1,4 @@
-# SAM-BCADA on Hyperledger Fabric (Go)
+# Dual-lock integrity auditing for 3D-printed products on Hyperledger Fabric
 
 > **Dual-lock integrity auditing system for 3D-printed products  
 > implemented on Hyperledger Fabric using Go chaincode and Go microservices.**
