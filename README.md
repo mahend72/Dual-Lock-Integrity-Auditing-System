@@ -22,20 +22,6 @@ SAM-BCADA combines:
   - [2. Start the Fabric test network](#2-start-the-fabric-test-network)
   - [3. Deploy the SAM-BCADA chaincode](#3-deploy-the-sam-bcada-chaincode)
   - [4. Build and run the off-chain services](#4-build-and-run-the-off-chain-services)
-- [Using the System](#using-the-system)
-  - [Roles](#roles)
-  - [Manufacturer Flow](#manufacturer-flow)
-  - [Verifier Flow](#verifier-flow)
-  - [Auditor Flow](#auditor-flow)
-  - [Download / Access Flow](#download--access-flow)
-- [Chaincode API](#chaincode-api)
-- [Off-Chain Services](#off-chain-services)
-  - [Coordinator Service](#coordinator-service)
-  - [Storage Node Service](#storage-node-service)
-- [Configuration](#configuration)
-- [Development Notes](#development-notes)
-- [Teardown](#teardown)
-- [License](#license)
 
 ---
 
@@ -276,7 +262,7 @@ For a complete and up-to-date list of publications, please refer to my full publ
 
 ## Citing
 
-If you use SHIELD-CAN framework, please cite the corresponding work:
+If you use this work, please cite the corresponding work:
 
 ```bash
 @article{kumar2025securing,
