@@ -1,0 +1,31 @@
+version: '2.4'
+
+networks:
+  test:
+    external: true   # reuse the "test" network created by test-network scripts
+
+services:
+  sambcada-coordinator:
+    container_name: sambcada-coordinator
+    image: sambcada-coordinator:latest
+    build:
+      context: ./app/coordinator
+      dockerfile: Dockerfile
+    environment:
+      - PORT=8080
+      # Add env for Fabric connection profile / MSP paths if you integrate SDK
+    networks:
+      - test
+    ports:
+      - "8080:8080"
+
+  sambcada-storage-node:
+    container_name: sambcada-storage-node
+    image: sambcada-storage-node:latest
+    build:
+      context: ./app/storage-node
+      dockerfile: Dockerfile
+    networks:
+      - test
+    ports:
+      - "4000:4000"

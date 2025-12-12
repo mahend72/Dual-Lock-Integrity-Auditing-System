@@ -1,0 +1,13 @@
+# sam-bcada/app/storage-node/Dockerfile
+FROM golang:1.21-alpine AS build
+WORKDIR /app
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN go build -o storage-node main.go
+
+FROM alpine
+WORKDIR /app
+COPY --from=build /app/storage-node .
+EXPOSE 4000
+CMD ["./storage-node"]
