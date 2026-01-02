@@ -1,7 +1,6 @@
 # Dual-lock integrity auditing for 3D-printed products on Hyperledger Fabric
 
-> **Dual-lock integrity auditing system for 3D-printed products  
-> implemented on Hyperledger Fabric using Go chaincode and Go microservices.**
+> **Dual-lock integrity auditing system for 3D-printed products implemented on Hyperledger Fabric using Go chaincode and Go microservices.**
 
 This repository includes a reference implementation of the SAM-BCADA system on top of the official [`hyperledger/fabric-samples`](https://github.com/hyperledger/fabric-samples) test network.
 
@@ -56,7 +55,7 @@ Data & trust flow (simplified):
 2. Coordinator receives G-code / design → encrypts, chunks, tags → tags on Fabric, blocks on Storage Node.
 3. Verifier checks live product fingerprint against anchor.
 4. Auditor runs periodic HVT-based audits across Storage Node(s), logging results on Fabric.
-5. Authorized users download encrypted file via Coordinator; each access is logged on-chain.
+5. Authorised users download the encrypted file via the Coordinator; each access is logged on-chain.
 
 ---
 
