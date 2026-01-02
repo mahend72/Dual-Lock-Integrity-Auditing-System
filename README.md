@@ -257,7 +257,7 @@ Below are selected publications related to SHIELD-CAN, cyber-physical security, 
   **Mahender Kumar**, Satish Chand
   arXiv preprint, 2021.  
 
-For a complete and up-to-date list of publications, please refer to my full publication list or Google Scholar profile. [Google scholar](https://scholar.google.com/citations?hl=en&user=Ppmct6EAAAAJ&view_op=list_works&sortby=pubdate)
+For a complete and up-to-date list of publications, please refer to my full publication list or Google Scholar. [Google scholar](https://scholar.google.com/citations?hl=en&user=Ppmct6EAAAAJ&view_op=list_works&sortby=pubdate)
 
 ## Citing
 
