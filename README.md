@@ -3,7 +3,7 @@
 > **Dual-lock integrity auditing system for 3D-printed products  
 > implemented on Hyperledger Fabric using Go chaincode and Go microservices.**
 
-This repository contains a reference implementation of the SAM-BCADA system on top of the official [`hyperledger/fabric-samples`](https://github.com/hyperledger/fabric-samples) test network.
+This repository includes a reference implementation of the SAM-BCADA system on top of the official [`hyperledger/fabric-samples`](https://github.com/hyperledger/fabric-samples) test network.
 
 SAM-BCADA combines:
 
@@ -161,7 +161,7 @@ This:
 
 Packages the Go chaincode in `../sam-bcada/chaincode-go`
 
-Deploys it as sambcada to mychannel
+Deploys it as SAMBCADA to my-channel
 
 ### 4. Build and run the off-chain services
 
