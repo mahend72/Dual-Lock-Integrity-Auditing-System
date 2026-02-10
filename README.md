@@ -55,7 +55,7 @@ Data & trust flow (simplified):
 2. Coordinator receives G-code / design → encrypts, chunks, tags → tags on Fabric, blocks on Storage Node.
 3. Verifier checks live product fingerprint against anchor.
 4. Auditor runs periodic HVT-based audits across Storage Node(s), logging results on Fabric.
-5. Authorised users download the encrypted file via the Coordinator; each access is logged on-chain.
+5. Authorised users download the encrypted file through the Coordinator; each access is logged on-chain.
 
 ---
 
