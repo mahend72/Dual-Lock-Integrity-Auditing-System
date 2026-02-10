@@ -192,7 +192,7 @@ The `docker-compose.sambcada.yaml` file re-uses the test Docker network created 
 
 ## Related Publications
 
-Below are selected publications related to SHIELD-CAN, cyber-physical security, additive manufacturing security, threat intelligence, and trusted AI systems. These give more background and context around secure architectures, intrusion detection, self-healing, and risk assessment.
+Below are selected publications related to SHIELD-CAN, cyber-physical security, additive manufacturing security, threat intelligence, and trusted AI systems. These give more background and context about secure architectures, intrusion detection, self-healing, and risk assessment.
 
 ### Automotive, VANET & Cyber-Physical / ICS Security
 
