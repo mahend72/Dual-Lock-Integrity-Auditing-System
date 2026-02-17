@@ -25,19 +25,6 @@ Design files (e.g., G-code) are:
 Tags are anchored on-chain; encrypted blocks live off-chain on storage nodes.
 Audits verify integrity **without decrypting** the file contents.
 
-# Dual-lock integrity auditing for 3D-printed products on Hyperledger Fabric
-
-> **Dual-lock integrity auditing system for 3D-printed products implemented on Hyperledger Fabric using Go chaincode and Go microservices.**
-
-This repository includes a reference implementation of the SAM-BCADA system on top of the official [`hyperledger/fabric-samples`](https://github.com/hyperledger/fabric-samples) test network.
-
-SAM-BCADA combines:
-
-- A **physical lock**: product-bound crypto anchor derived from a device fingerprint (DFP).
-- A **digital lock**: encrypted design files stored off-chain with **homomorphic verifiable tags** (HVT) anchored on-chain and periodically audited.
-
----
-
 ## Table of Contents
 
 - [Architecture Overview](#architecture-overview)
