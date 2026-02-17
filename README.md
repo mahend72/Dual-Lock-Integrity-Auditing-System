@@ -1,3 +1,31 @@
+# Dual-lock Integrity Auditing for 3D-Printed Products (Hyperledger Fabric)
+
+A reference implementation of **SAM-BCADA** — a **dual-lock integrity auditing system** for 3D-printed products built on **Hyperledger Fabric**, with **Go chaincode** and **Go microservices**.
+
+This project is relevant for **AI Security / Trustworthy Systems** roles because it demonstrates:
+- **End-to-end integrity assurance** across physical devices + digital artifacts
+- **Tamper-evidence + accountability** via blockchain event logs
+- **Cryptographic controls** (device fingerprint anchoring, encryption, homomorphic tag auditing)
+- **Security engineering**: threat-aware architecture, auditability, and access governance
+
+---
+
+## What “Dual-lock” Means
+
+### 1) Physical Lock (Product-bound Crypto Anchor)
+A product is bound to a **crypto anchor** derived from a **Device Fingerprint (DFP)**:
+- DFP is encrypted + signed
+- Anchor + metadata are committed on-chain
+- Used later to verify that the **physical product/device matches the registered identity**
+
+### 2) Digital Lock (Confidential Design + Integrity Audits)
+Design files (e.g., G-code) are:
+- **Encrypted**
+- **Chunked into blocks**
+- **Tagged** using **homomorphic verifiable tags (HVT)**  
+Tags are anchored on-chain; encrypted blocks live off-chain on storage nodes.
+Audits verify integrity **without decrypting** the file contents.
+
 # Dual-lock integrity auditing for 3D-printed products on Hyperledger Fabric
 
 > **Dual-lock integrity auditing system for 3D-printed products implemented on Hyperledger Fabric using Go chaincode and Go microservices.**
