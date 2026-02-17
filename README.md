@@ -8,7 +8,6 @@ This project is relevant for **AI Security / Trustworthy Systems** roles because
 - **Cryptographic controls** (device fingerprint anchoring, encryption, homomorphic tag auditing)
 - **Security engineering**: threat-aware architecture, auditability, and access governance
 
----
 
 ## What “Dual-lock” Means
 
